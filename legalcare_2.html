@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bridge Website</title>
+<style>
+  body {
+    background-image: url("banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    display: flex; /* Added for button positioning */
+    flex-direction: column; /* Added for button positioning */
+    justify-content: center; /* Added for button positioning */
+  }
+
+  .centered-image {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 750px; /* Adjust this value to set the desired width */
+  }
+
+  .ticket-button {
+    position: fixed; /* Positions the button at the bottom */
+    bottom: 40px; /* Adjusts the distance from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50; /* Green color for the button */
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+  <img src="logo.png" class="centered-image" alt="New Image">
+  
+  <a href="https://forms.gle/qixMyuouSejqer6d8" class="ticket-button">Raise a Ticket</a>
+
+</body>
+
+<!-- <body>    
+    <a href="https://legalcare.io/" class="ticket-button">About Us</a>
+    <a href="https://legalcare.io/" class="ticket-button">Contact Us</a>
+</body> -->
+
+</html>
